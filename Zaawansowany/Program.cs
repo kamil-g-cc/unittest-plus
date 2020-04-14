@@ -2,8 +2,11 @@
 
 namespace unittest_plus
 {
-    class Program
+    public class Program
     {
+        /*
+            throws exception when value is <> 7
+        */
         static public int NaPotrzebyWyjatku(int a){
             if(a==7) {
                 Console.WriteLine("jesteś szczęściarzem, bo nie zobaczysz wyjątku :)");
