@@ -2,6 +2,14 @@
 
 namespace unittest_plus
 {
+    //TODO: sprawdzić Damiana link, czyli 
+    /*
+        https://stackoverflow.com/questions/9122708/unit-testing-private-methods-in-c-sharpClass target = new Class();
+        PrivateObject obj = new PrivateObject(target);
+        var retVal = obj.Invoke("PrivateMethod");
+        Assert.AreEqual(expectedVal, retVal);
+
+    */
     public class Program
     {
         /*

@@ -5,6 +5,7 @@ namespace Zaawansowany.Test
 {
     public class UnitTest1
     {
+        
         [Fact]
         public void NaPotrzebyWyjatku_NonExceptionInput_Return0()
         {
@@ -13,6 +14,7 @@ namespace Zaawansowany.Test
         }
         [Fact]
         public void NaPotrzebyWyjatku_WeExpectNowException_NoReturnValue(){
+            //TODO: Kamil: wyjaśnić Action()
             Assert.Throws<NotImplementedException>(()=>Program.NaPotrzebyWyjatku(3));
         }
     }
